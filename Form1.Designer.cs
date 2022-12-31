@@ -43,6 +43,8 @@
             this.SplitCheckBox = new System.Windows.Forms.CheckBox();
             this.copyButton1 = new System.Windows.Forms.Button();
             this.copyButton2 = new System.Windows.Forms.Button();
+            this.seenButton1 = new System.Windows.Forms.Button();
+            this.seenButton2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // character1
@@ -201,11 +203,35 @@
             this.copyButton2.UseVisualStyleBackColor = true;
             this.copyButton2.Click += new System.EventHandler(this.copyButton2_Click);
             // 
+            // seenButton1
+            // 
+            this.seenButton1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.seenButton1.Location = new System.Drawing.Point(557, 179);
+            this.seenButton1.Name = "seenButton1";
+            this.seenButton1.Size = new System.Drawing.Size(22, 23);
+            this.seenButton1.TabIndex = 15;
+            this.seenButton1.Text = "S";
+            this.seenButton1.UseVisualStyleBackColor = true;
+            this.seenButton1.Click += new System.EventHandler(this.seenButton1_Click);
+            // 
+            // seenButton2
+            // 
+            this.seenButton2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.seenButton2.Location = new System.Drawing.Point(557, 342);
+            this.seenButton2.Name = "seenButton2";
+            this.seenButton2.Size = new System.Drawing.Size(22, 23);
+            this.seenButton2.TabIndex = 16;
+            this.seenButton2.Text = "S";
+            this.seenButton2.UseVisualStyleBackColor = true;
+            this.seenButton2.Click += new System.EventHandler(this.seenButton2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(73F, 175F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(630, 455);
+            this.Controls.Add(this.seenButton2);
+            this.Controls.Add(this.seenButton1);
             this.Controls.Add(this.copyButton2);
             this.Controls.Add(this.copyButton1);
             this.Controls.Add(this.SplitCheckBox);
@@ -249,5 +275,7 @@
         private CheckBox SplitCheckBox;
         private Button copyButton1;
         private Button copyButton2;
+        private Button seenButton1;
+        private Button seenButton2;
     }
 }

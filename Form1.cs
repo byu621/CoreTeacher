@@ -4,6 +4,7 @@ using System.Runtime.InteropServices;
 using System.Security.Policy;
 using System.Text;
 using ToolGood.Words.Pinyin;
+using System.Linq;
 
 namespace CoreTeacher
 {
@@ -171,6 +172,33 @@ namespace CoreTeacher
         private void copyButton2_Click(object sender, EventArgs e)
         {
             Clipboard.SetText(character2.Text);
+        }
+
+        private void seenButton1_Click(object sender, EventArgs e)
+        {
+            SeenButton(character1.Text);
+        }
+
+        private void seenButton2_Click(object sender, EventArgs e)
+        {
+            SeenButton(character2.Text);
+        }
+
+        private void SeenButton(string character)
+        {
+            StringBuilder sb = new StringBuilder();
+            for (int i = 0; i < hskLevels.Count; i++)
+            {
+                foreach (string s in hskLevels[i])
+                {
+                    if (s.Contains(character))
+                    {
+                        sb.Append($"HSK{i + 1}: {s}\n");
+                    }
+                }
+            }
+
+            MessageBox.Show(sb.ToString());
         }
     }
 }
