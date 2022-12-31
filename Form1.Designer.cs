@@ -39,6 +39,8 @@
             this.hskBox = new System.Windows.Forms.TextBox();
             this.purpleButton1 = new System.Windows.Forms.Button();
             this.purpleButton2 = new System.Windows.Forms.Button();
+            this.poolLabel = new System.Windows.Forms.Label();
+            this.SplitCheckBox = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // character1
@@ -154,11 +156,34 @@
             this.purpleButton2.UseVisualStyleBackColor = true;
             this.purpleButton2.Click += new System.EventHandler(this.purpleButton2_Click);
             // 
+            // poolLabel
+            // 
+            this.poolLabel.AutoSize = true;
+            this.poolLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.poolLabel.Location = new System.Drawing.Point(12, 20);
+            this.poolLabel.Name = "poolLabel";
+            this.poolLabel.Size = new System.Drawing.Size(31, 15);
+            this.poolLabel.TabIndex = 11;
+            this.poolLabel.Text = "Pool";
+            // 
+            // SplitCheckBox
+            // 
+            this.SplitCheckBox.AutoSize = true;
+            this.SplitCheckBox.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.SplitCheckBox.Location = new System.Drawing.Point(56, 19);
+            this.SplitCheckBox.Name = "SplitCheckBox";
+            this.SplitCheckBox.Size = new System.Drawing.Size(49, 19);
+            this.SplitCheckBox.TabIndex = 12;
+            this.SplitCheckBox.Text = "Split";
+            this.SplitCheckBox.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(73F, 175F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(630, 455);
+            this.Controls.Add(this.SplitCheckBox);
+            this.Controls.Add(this.poolLabel);
             this.Controls.Add(this.purpleButton2);
             this.Controls.Add(this.purpleButton1);
             this.Controls.Add(this.hskBox);
@@ -194,5 +219,7 @@
         private TextBox hskBox;
         private Button purpleButton1;
         private Button purpleButton2;
+        private Label poolLabel;
+        private CheckBox SplitCheckBox;
     }
 }

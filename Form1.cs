@@ -40,6 +40,7 @@ namespace CoreTeacher
         {
             currentSet.Clear();
             iterator = 0;
+            iteratorLabel.Text = iterator.ToString();
             character1.Text = "";
             character2.Text = "";
             pinyin1.Text = "";
@@ -49,9 +50,21 @@ namespace CoreTeacher
             for (int i = fromIndex; i <= toIndex && i < words.Count; i++)
             {
                 currentSet.Add(words[i]);
+
+                if (SplitCheckBox.Checked && words[i].Length > 1)
+                {
+                    foreach (var c in words[i])
+                    {
+                        if (!currentSet.Contains(c.ToString()))
+                        {
+                            currentSet.Add(c.ToString());
+                        }
+                    }
+                }
             }
 
             pinyinRevealed = true;
+            poolLabel.Text = currentSet.Count.ToString();
             Randomise();
         }
 
@@ -61,8 +74,16 @@ namespace CoreTeacher
             {
                 character1.Text = CalculateNextWord();
                 pinyin1.Text = "";
-                character2.Text = CalculateNextWord();
-                pinyin2.Text = "";
+
+                if (iterator != 0)
+                {
+                    character2.Text = CalculateNextWord();
+                    pinyin2.Text = "";
+                } else
+                {
+                    character2.Text = "N/A";
+                    pinyin2.Text = "";
+                }
             } else
             {
                 pinyin1.Text = WordsHelper.GetPinyin(character1.Text, true);
