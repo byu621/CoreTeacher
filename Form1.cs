@@ -162,5 +162,15 @@ namespace CoreTeacher
 
             Process.Start(psInfo);
         }
+
+        private void copyButton1_Click(object sender, EventArgs e)
+        {
+            Clipboard.SetText(character1.Text);
+        }
+
+        private void copyButton2_Click(object sender, EventArgs e)
+        {
+            Clipboard.SetText(character2.Text);
+        }
     }
 }
