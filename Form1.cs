@@ -50,7 +50,10 @@ namespace CoreTeacher
             List<string> words = hskLevels[hskLevel - 1];
             for (int i = fromIndex; i <= toIndex && i < words.Count; i++)
             {
-                currentSet.Add(words[i]);
+                if (normCheckBox.Checked)
+                {
+                    currentSet.Add(words[i]);
+                }
 
                 if (SplitCheckBox.Checked && words[i].Length > 1)
                 {
@@ -186,19 +189,25 @@ namespace CoreTeacher
 
         private void SeenButton(string character)
         {
+            var bigMessageBox = new BigMessageBox();
             StringBuilder sb = new StringBuilder();
             for (int i = 0; i < hskLevels.Count; i++)
             {
+                sb.Append($"HSK{i + 1}: ");
+
                 foreach (string s in hskLevels[i])
                 {
                     if (s.Contains(character))
                     {
-                        sb.Append($"HSK{i + 1}: {s}\n");
+                        sb.Append($",{s}");
                     }
                 }
+
+                sb.Append('\n');
             }
 
-            MessageBox.Show(sb.ToString());
+            bigMessageBox.content = sb.ToString();
+            bigMessageBox.ShowDialog();
         }
     }
 }

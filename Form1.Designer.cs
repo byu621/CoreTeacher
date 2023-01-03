@@ -45,6 +45,7 @@
             this.copyButton2 = new System.Windows.Forms.Button();
             this.seenButton1 = new System.Windows.Forms.Button();
             this.seenButton2 = new System.Windows.Forms.Button();
+            this.normCheckBox = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // character1
@@ -174,7 +175,7 @@
             // 
             this.SplitCheckBox.AutoSize = true;
             this.SplitCheckBox.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.SplitCheckBox.Location = new System.Drawing.Point(56, 19);
+            this.SplitCheckBox.Location = new System.Drawing.Point(130, 20);
             this.SplitCheckBox.Name = "SplitCheckBox";
             this.SplitCheckBox.Size = new System.Drawing.Size(49, 19);
             this.SplitCheckBox.TabIndex = 12;
@@ -225,11 +226,23 @@
             this.seenButton2.UseVisualStyleBackColor = true;
             this.seenButton2.Click += new System.EventHandler(this.seenButton2_Click);
             // 
+            // normCheckBox
+            // 
+            this.normCheckBox.AutoSize = true;
+            this.normCheckBox.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.normCheckBox.Location = new System.Drawing.Point(58, 19);
+            this.normCheckBox.Name = "normCheckBox";
+            this.normCheckBox.Size = new System.Drawing.Size(57, 19);
+            this.normCheckBox.TabIndex = 17;
+            this.normCheckBox.Text = "Norm";
+            this.normCheckBox.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(73F, 175F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(630, 455);
+            this.Controls.Add(this.normCheckBox);
             this.Controls.Add(this.seenButton2);
             this.Controls.Add(this.seenButton1);
             this.Controls.Add(this.copyButton2);
@@ -277,5 +290,6 @@
         private Button copyButton2;
         private Button seenButton1;
         private Button seenButton2;
+        private CheckBox normCheckBox;
     }
 }
