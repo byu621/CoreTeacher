@@ -29,6 +29,8 @@ namespace CoreTeacher
                 hskLevels.Add(words);
             }
 
+            //hskLevels.Add(File.ReadAllLines($"HSK/hsk2sentences.txt").ToList());
+
             Sync();
 
             PrivateFontCollection pfc = new PrivateFontCollection();
@@ -65,6 +67,12 @@ namespace CoreTeacher
                         }
                     }
                 }
+            }
+
+            if (sentenceCheckBox.Checked)
+            {
+                currentSet.Clear();
+                currentSet.AddRange(File.ReadAllLines($"HSK/hsk{hskLevel}sentences.txt").ToList());
             }
 
             pinyinRevealed = true;
