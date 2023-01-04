@@ -12,8 +12,7 @@ namespace CoreTeacher
     {
         private List<List<string>> hskLevels = new();
         private List<List<string>> hskLevelsNew = new();
-        private List<string> hsk1Unknown = new();
-        private List<string> hsk2Unknown = new();
+        private List<string> allHskCharacters = new();
         private List<string> currentSet = new();
         private int fromIndex = 0;
         private int toIndex = int.MaxValue;   
@@ -28,6 +27,7 @@ namespace CoreTeacher
             {
                 List<string> words = File.ReadAllLines($"HSK/hsk{i}unknown.txt").ToList();
                 hskLevels.Add(words);
+                allHskCharacters.AddRange(words);
             }
 
             for (int i = 1; i <= 1; i++)
@@ -58,7 +58,17 @@ namespace CoreTeacher
             {
                 if (noHSKBox.Checked)
                 {
-                    if (hskLevels.Exists(h => h.Contains(words[i])))
+                    bool newWord = false;
+                    foreach (var c in words[i])
+                    {
+                        if (!allHskCharacters.Exists(h => h.Contains(c)))
+                        {
+                            newWord = true;
+                            break;
+                        }
+                    }
+
+                    if (!newWord)
                     {
                         continue;
                     }
