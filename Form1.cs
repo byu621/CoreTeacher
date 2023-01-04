@@ -32,7 +32,7 @@ namespace CoreTeacher
 
             for (int i = 1; i <= 1; i++)
             {
-                hskLevelsNew.Add(File.ReadAllLines($"HSK/hsknew{i}unknown.txt").ToList());
+                hskLevelsNew.Add(File.ReadAllLines($"HSK/hskn{i}unknown.txt").ToList());
             }
 
             Sync();
