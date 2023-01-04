@@ -11,6 +11,7 @@ namespace CoreTeacher
     public partial class Form1 : Form
     {
         private List<List<string>> hskLevels = new();
+        private List<List<string>> hskLevelsNew = new();
         private List<string> hsk1Unknown = new();
         private List<string> hsk2Unknown = new();
         private List<string> currentSet = new();
@@ -29,7 +30,10 @@ namespace CoreTeacher
                 hskLevels.Add(words);
             }
 
-            //hskLevels.Add(File.ReadAllLines($"HSK/hsk2sentences.txt").ToList());
+            for (int i = 1; i <= 1; i++)
+            {
+                hskLevelsNew.Add(File.ReadAllLines($"HSK/hsknew{i}unknown.txt").ToList());
+            }
 
             Sync();
 
@@ -49,7 +53,7 @@ namespace CoreTeacher
             pinyin1.Text = "";
             pinyin2.Text = "";
 
-            List<string> words = hskLevels[hskLevel - 1];
+            List<string> words = File.ReadAllLines($"HSK/hsk{hskBox.Text}unknown.txt").ToList();
             for (int i = fromIndex; i <= toIndex && i < words.Count; i++)
             {
                 if (normCheckBox.Checked)
