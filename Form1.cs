@@ -56,6 +56,14 @@ namespace CoreTeacher
             List<string> words = File.ReadAllLines($"HSK/hsk{hskBox.Text}unknown.txt").ToList();
             for (int i = fromIndex; i <= toIndex && i < words.Count; i++)
             {
+                if (noHSKBox.Checked)
+                {
+                    if (hskLevels.Exists(h => h.Contains(words[i])))
+                    {
+                        continue;
+                    }
+                }
+
                 if (normCheckBox.Checked)
                 {
                     currentSet.Add(words[i]);

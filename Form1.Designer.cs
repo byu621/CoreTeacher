@@ -47,6 +47,7 @@
             this.seenButton2 = new System.Windows.Forms.Button();
             this.normCheckBox = new System.Windows.Forms.CheckBox();
             this.sentenceCheckBox = new System.Windows.Forms.CheckBox();
+            this.noHSKBox = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // character1
@@ -249,11 +250,23 @@
             this.sentenceCheckBox.Text = "Sentence";
             this.sentenceCheckBox.UseVisualStyleBackColor = true;
             // 
+            // noHSKBox
+            // 
+            this.noHSKBox.AutoSize = true;
+            this.noHSKBox.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.noHSKBox.Location = new System.Drawing.Point(12, 39);
+            this.noHSKBox.Name = "noHSKBox";
+            this.noHSKBox.Size = new System.Drawing.Size(62, 19);
+            this.noHSKBox.TabIndex = 19;
+            this.noHSKBox.Text = "noHSK";
+            this.noHSKBox.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(73F, 175F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(630, 455);
+            this.Controls.Add(this.noHSKBox);
             this.Controls.Add(this.sentenceCheckBox);
             this.Controls.Add(this.normCheckBox);
             this.Controls.Add(this.seenButton2);
@@ -305,5 +318,6 @@
         private Button seenButton2;
         private CheckBox normCheckBox;
         private CheckBox sentenceCheckBox;
+        private CheckBox noHSKBox;
     }
 }
