@@ -19,6 +19,8 @@ namespace CoreTeacher
         private int hskLevel = 1;
         private int iterator = 0;
         private bool pinyinRevealed = true;
+        private string firstWord;
+        private string secondWord;
 
         public Form1()
         {
@@ -59,7 +61,8 @@ namespace CoreTeacher
                 if (noHSKBox.Checked)
                 {
                     bool newWord = false;
-                    foreach (var c in words[i])
+                    string chineseCharacter = words[i].Split(',')[0];
+                    foreach (var c in chineseCharacter)
                     {
                         if (!allHskCharacters.Exists(h => h.Contains(c)))
                         {
@@ -106,12 +109,14 @@ namespace CoreTeacher
         {
             if (pinyinRevealed)
             {
-                character1.Text = CalculateNextWord();
+                firstWord = CalculateNextWord();
+                character1.Text = firstWord.Split(',')[0];
                 pinyin1.Text = "";
 
                 if (iterator != 0)
                 {
-                    character2.Text = CalculateNextWord();
+                    secondWord = CalculateNextWord();
+                    character2.Text = secondWord.Split(',')[0];
                     pinyin2.Text = "";
                 } else
                 {
@@ -120,8 +125,8 @@ namespace CoreTeacher
                 }
             } else
             {
-                pinyin1.Text = WordsHelper.GetPinyin(character1.Text, true);
-                pinyin2.Text = WordsHelper.GetPinyin(character2.Text, true);
+                pinyin1.Text = firstWord.Substring(firstWord.IndexOf(',') + 1);
+                pinyin2.Text = secondWord.Substring(secondWord.IndexOf(",") + 1);
             }
 
             pinyinRevealed = !pinyinRevealed;
@@ -238,6 +243,45 @@ namespace CoreTeacher
 
             bigMessageBox.content = sb.ToString();
             bigMessageBox.ShowDialog();
+        }
+
+        private void ProcessHtml(string fileName)
+        {
+            string text = File.ReadAllText(fileName);
+            text = text.Replace("&nbsp;", "");
+            int a = text.IndexOf("\n");
+            text = text.Replace("\n", " ");
+            text = text.Replace("\r", " ");
+            string[] asdf = text.Split(new string[] { "<td>", "</td>", "<tr>", "</tr>", "&nbsp;" }, StringSplitOptions.RemoveEmptyEntries);
+            //for (int i = 0; i < asdf.Length; i++)
+            //{
+            //    if (asdf[i] == "460")
+            //    {
+            //        var a1 = asdf[i+1];
+            //        var a2 = asdf[i+2];
+            //        var a3 = asdf[i+3];
+            //    }
+            //}
+            var sb = new StringBuilder();
+            for (int i = 0; i < asdf.Length; i += 4) //index, character, pinyin, english
+            {
+                sb.AppendLine($"{asdf[i + 1]},{asdf[i + 2]},{asdf[i + 3]}");
+            }
+
+            File.WriteAllText(fileName, sb.ToString());
+        }
+
+        private void RemoveLineNumbersFromFile(string fileName)
+        {
+            string[] lines = File.ReadAllLines(fileName);
+
+            var sb = new StringBuilder();
+            foreach (string line in lines)
+            {
+                sb.AppendLine(line.Split(" ")[1]);
+            }
+
+            File.WriteAllText(fileName, sb.ToString());
         }
     }
 }
