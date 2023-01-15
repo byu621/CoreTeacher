@@ -231,6 +231,8 @@
             // normCheckBox
             // 
             this.normCheckBox.AutoSize = true;
+            this.normCheckBox.Checked = true;
+            this.normCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
             this.normCheckBox.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.normCheckBox.Location = new System.Drawing.Point(58, 19);
             this.normCheckBox.Name = "normCheckBox";

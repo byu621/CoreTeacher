@@ -39,6 +39,8 @@ namespace CoreTeacher
 
             Sync();
 
+            //ProcessHtml($"HSK/hskn3unknown.txt");
+
             PrivateFontCollection pfc = new PrivateFontCollection();
             pfc.AddFontFile("SimSun.ttf");
             character1.Font = new Font(pfc.Families[0], 72, FontStyle.Bold);
