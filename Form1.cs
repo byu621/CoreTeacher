@@ -32,7 +32,7 @@ namespace CoreTeacher
                 allHskCharacters.AddRange(words);
             }
 
-            for (int i = 1; i <= 1; i++)
+            for (int i = 1; i <= 3; i++)
             {
                 hskLevelsNew.Add(File.ReadAllLines($"HSK/hskn{i}unknown.txt").ToList());
             }
@@ -228,15 +228,15 @@ namespace CoreTeacher
         {
             var bigMessageBox = new BigMessageBox();
             StringBuilder sb = new StringBuilder();
-            for (int i = 0; i < hskLevels.Count; i++)
+            for (int i = 0; i < hskLevelsNew.Count; i++)
             {
-                sb.Append($"HSK{i + 1}: ");
+                sb.Append($"HSKn{i + 1}: ");
 
-                foreach (string s in hskLevels[i])
+                foreach (string s in hskLevelsNew[i])
                 {
                     if (s.Contains(character))
                     {
-                        sb.Append($",{s}");
+                        sb.Append($",{s.Split(',')[0]}");
                     }
                 }
 
