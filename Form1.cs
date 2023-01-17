@@ -216,12 +216,22 @@ namespace CoreTeacher
 
         private void seenButton1_Click(object sender, EventArgs e)
         {
-            SeenButton(character1.Text);
+            SeenButton(character1.Text[0].ToString());
+        }
+
+        private void seenB_Click(object sender, EventArgs e)
+        {
+            SeenButton(character1.Text[1].ToString());
         }
 
         private void seenButton2_Click(object sender, EventArgs e)
         {
-            SeenButton(character2.Text);
+            SeenButton(character2.Text[0].ToString());
+        }
+
+        private void seenD_Click(object sender, EventArgs e)
+        {
+            SeenButton(character2.Text[1].ToString());
         }
 
         private void SeenButton(string character)
@@ -285,5 +295,7 @@ namespace CoreTeacher
 
             File.WriteAllText(fileName, sb.ToString());
         }
+
+
     }
 }

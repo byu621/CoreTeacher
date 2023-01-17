@@ -48,6 +48,8 @@
             this.normCheckBox = new System.Windows.Forms.CheckBox();
             this.sentenceCheckBox = new System.Windows.Forms.CheckBox();
             this.noHSKBox = new System.Windows.Forms.CheckBox();
+            this.seenB = new System.Windows.Forms.Button();
+            this.seenD = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // character1
@@ -263,11 +265,35 @@
             this.noHSKBox.Text = "noHSK";
             this.noHSKBox.UseVisualStyleBackColor = true;
             // 
+            // seenB
+            // 
+            this.seenB.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.seenB.Location = new System.Drawing.Point(585, 179);
+            this.seenB.Name = "seenB";
+            this.seenB.Size = new System.Drawing.Size(22, 23);
+            this.seenB.TabIndex = 20;
+            this.seenB.Text = "S";
+            this.seenB.UseVisualStyleBackColor = true;
+            this.seenB.Click += new System.EventHandler(this.seenB_Click);
+            // 
+            // seenD
+            // 
+            this.seenD.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.seenD.Location = new System.Drawing.Point(585, 343);
+            this.seenD.Name = "seenD";
+            this.seenD.Size = new System.Drawing.Size(22, 23);
+            this.seenD.TabIndex = 21;
+            this.seenD.Text = "S";
+            this.seenD.UseVisualStyleBackColor = true;
+            this.seenD.Click += new System.EventHandler(this.seenD_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(73F, 175F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(630, 455);
+            this.Controls.Add(this.seenD);
+            this.Controls.Add(this.seenB);
             this.Controls.Add(this.noHSKBox);
             this.Controls.Add(this.sentenceCheckBox);
             this.Controls.Add(this.normCheckBox);
@@ -321,5 +347,7 @@
         private CheckBox normCheckBox;
         private CheckBox sentenceCheckBox;
         private CheckBox noHSKBox;
+        private Button seenB;
+        private Button seenD;
     }
 }
