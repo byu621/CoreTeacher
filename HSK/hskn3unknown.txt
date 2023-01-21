@@ -111,9 +111,9 @@
 传来,chuánlái,came; come through
 传说,chuánshuō,Legend
 创新,chuàngxīn,innovate
-创业,chuàngyè,carve out
+创业,chuàngyè,entrepreneurship
 创造,chuàngzào,create
-创作,chuàngzuò,A literary creation
+创作,chuàngzuò,to create
 从来,cónglái,Always
 从前,cóngqián,before
 从事,cóngshì,Be engaged in
@@ -126,7 +126,7 @@
 打听,dǎting,Inquire
 大概,dàgài,Probably
 大使馆,dàshǐguǎn,Embassy
-大约,dàyuē,about
+大约,dàyuē,approximation
 大夫,dàifu,Doctor
 代,dài,substitute; replace; take the place of
 代表,dàibiǎo,representative
