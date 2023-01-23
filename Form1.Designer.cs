@@ -50,6 +50,8 @@
             this.noHSKBox = new System.Windows.Forms.CheckBox();
             this.seenB = new System.Windows.Forms.Button();
             this.seenD = new System.Windows.Forms.Button();
+            this.updateTranslation1 = new System.Windows.Forms.TextBox();
+            this.updateTranslation2 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // character1
@@ -287,11 +289,29 @@
             this.seenD.UseVisualStyleBackColor = true;
             this.seenD.Click += new System.EventHandler(this.seenD_Click);
             // 
+            // updateTranslation1
+            // 
+            this.updateTranslation1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.updateTranslation1.Location = new System.Drawing.Point(479, 148);
+            this.updateTranslation1.Name = "updateTranslation1";
+            this.updateTranslation1.Size = new System.Drawing.Size(100, 25);
+            this.updateTranslation1.TabIndex = 22;
+            // 
+            // updateTranslation2
+            // 
+            this.updateTranslation2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.updateTranslation2.Location = new System.Drawing.Point(479, 311);
+            this.updateTranslation2.Name = "updateTranslation2";
+            this.updateTranslation2.Size = new System.Drawing.Size(100, 25);
+            this.updateTranslation2.TabIndex = 23;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(73F, 175F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(630, 455);
+            this.Controls.Add(this.updateTranslation2);
+            this.Controls.Add(this.updateTranslation1);
             this.Controls.Add(this.seenD);
             this.Controls.Add(this.seenB);
             this.Controls.Add(this.noHSKBox);
@@ -349,5 +369,7 @@
         private CheckBox noHSKBox;
         private Button seenB;
         private Button seenD;
+        private TextBox updateTranslation1;
+        private TextBox updateTranslation2;
     }
 }

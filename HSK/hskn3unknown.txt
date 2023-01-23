@@ -1,5 +1,5 @@
 爱心,àixīn,love
-安排,ānpái,arrange
+安排,ānpái,Arrange
 安装,ānzhuāng,install
 按,àn,press; push; check; restrain
 按照,ànzhào,according to
@@ -177,14 +177,14 @@
 发送,fāsòng,send; transmit; dispatch; ship; forward
 发言,fāyán,speak
 发展,fāzhǎn,Development
-反对,fǎnduì,Opposition
+反对,fǎnduì,to fight against
 反复,fǎnfù,Repeatedly
 反应,fǎnyìng,reaction
 反正,fǎnzhèng,anyway
 范围,fànwéi,range, scope
 方式,fāngshì,mode
 防,fáng,guard against; defend
-防止,fángzhǐ,Prevent
+防止,fángzhǐ,to prevent
 房东,fángdōng,landlord
 房屋,fáng wū,houses; buildings; tenement
 房租,fáng zū,rent
@@ -195,7 +195,7 @@
 费用,fèi yòng,cost; expenses; outlay
 分别,fēnbié,part
 分配,fēnpèi,to distribute; to assign
-分组,fēnzǔ,grouping
+分组,fēnzǔ,to divide into groups
 丰富,fēngfù,rich
 风险,fēngxiǎn,risk
 否定,fǒudìng,negative

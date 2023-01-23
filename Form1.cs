@@ -5,6 +5,7 @@ using System.Security.Policy;
 using System.Text;
 using ToolGood.Words.Pinyin;
 using System.Linq;
+using System.IO;
 
 namespace CoreTeacher
 {
@@ -49,6 +50,8 @@ namespace CoreTeacher
 
         private void Sync()
         {
+            UpdateTranslations();
+
             currentSet.Clear();
             iterator = 0;
             iteratorLabel.Text = iterator.ToString();
@@ -175,7 +178,7 @@ namespace CoreTeacher
 
         private void BaseForm_KeyUp(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.Space)
+            if (e.KeyCode == Keys.ControlKey)
             {
                 Action();
                 e.Handled = true;
@@ -296,6 +299,41 @@ namespace CoreTeacher
             File.WriteAllText(fileName, sb.ToString());
         }
 
+        private void UpdateTranslations()
+        {
+            List<string> updatedTranslations = new() { updateTranslation1.Text, updateTranslation2.Text };
+            List<string> characters = new() { character1.Text, character2.Text };
+            List<string> paths = new() { $"../../../HSK/hsk{hskBox.Text}unknown.txt", $"HSK/hsk{hskBox.Text}unknown.txt" };
 
+            for (int i = 0; i < updatedTranslations.Count; i++)
+            {
+                string translation = updatedTranslations[i].Trim();
+                if (translation == string.Empty)
+                {
+                    continue;
+                }
+
+                List<string> words = File.ReadAllLines($"../../../HSK/hsk{hskBox.Text}unknown.txt").ToList();
+                for (int j = 0; j < words.Count; j++)
+                {
+                    string word = words[j];
+                    if (word.Split(',')[0] == characters[i])
+                    {
+                        var splitWord = word.Split(',');
+                        splitWord[splitWord.Length - 1] = updatedTranslations[i];
+                        words[j] = string.Join(",", splitWord);
+                        foreach (var path in paths)
+                        {
+                            File.WriteAllLines(path, words);
+                        }
+
+                        break;
+                    }
+                }
+            }
+
+            updateTranslation1.Text = string.Empty;
+            updateTranslation2.Text = string.Empty;
+        }
     }
 }
