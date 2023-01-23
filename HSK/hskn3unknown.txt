@@ -24,7 +24,7 @@
 报（名）,bào,newspaper; periodical; journal; report; telegram
 报到,bàodào,register,check in
 报道,bàodào,report
-报告,bàogào,Presentation
+报告,bàogào,to inform
 背,bèi,Back
 北部,běi bù,north
 背（名）,bèi,back of the body; back side of an object
@@ -43,23 +43,23 @@
 变为,biànwéi,become; turn into; change into
 标题,biāotí,title; heading
 标准,biāozhǔn,standard
-表达,biǎodá,Expression
+表达,biǎodá,to express
 表格,biǎogé,form
 表面,biǎomiàn,surface
-表明,biǎomíng,Indicate
-表现,biǎoxiàn,performance
+表明,biǎomíng,to make clear
+表现,biǎoxiàn,work performance
 表演,biǎoyǎn,perform
 并（副、连）,bìng,and; also; equally; simultaneously; side by side
 并且,bìngqiě,also
 播出,bō chū,broadcast; on the air
-播放,bōfàng,play
+播放,bōfàng,to broadcast
 不必,bú bì,need not; not have to
 不断,búduàn,Constantly
 不论,búlùn,whether; no matter; whether … or
 补,bǔ,repair; mend; patch; supply; make up for
 补充,bǔchōng,supplement
 不安,bù’ān,Uneasy
-不得不,bùdébù,Cannot but
+不得不,bùdébù,have to
 不光,bù guāng,not only
 不仅,bùjǐn,not only
 布,bù,cloth
@@ -95,14 +95,14 @@
 成长,chéngzhǎng,Grow up
 城,chéng,city; town
 城市,chéngshì,City
-程度,chéngdù,degree
+程度,chéngdù,level, extent
 持续,chíxù,Continued
 充满,chōngmǎn,full of
 重,zhòng,heavy
 初,chū,beginning; start; basis; at the beginning of
 初（初一）,chū （chū yī）,prefix (first grade of junior high school )
 初步,chūbù,preliminary
-初级,chūjí,primary
+初级,chūjí,junior, primary
 初中,chūzhōng,junior high school
 除了,chúle,except
 处理,chǔlǐ,Handle
@@ -181,7 +181,7 @@
 反复,fǎnfù,Repeatedly
 反应,fǎnyìng,reaction
 反正,fǎnzhèng,anyway
-范围,fànwéi,Range
+范围,fànwéi,range, scope
 方式,fāngshì,mode
 防,fáng,guard against; defend
 防止,fángzhǐ,Prevent
@@ -194,7 +194,7 @@
 费,fèi,fee; cost
 费用,fèi yòng,cost; expenses; outlay
 分别,fēnbié,part
-分配,fēnpèi,distribution
+分配,fēnpèi,to distribute; to assign
 分组,fēnzǔ,grouping
 丰富,fēngfù,rich
 风险,fēngxiǎn,risk
@@ -242,7 +242,7 @@
 工具,gōngjù,tool
 工业,gōngyè,Industry
 工资,gōngzī,wages
-公布,gōngbù,Publish
+公布,gōngbù,to announce
 公共,gōng gòng,public; common; community
 公开,gōngkāi,open
 公民,gōngmín,citizen
