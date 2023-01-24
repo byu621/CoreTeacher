@@ -188,7 +188,7 @@
 房东,fángdōng,landlord
 房屋,fáng wū,houses; buildings; tenement
 房租,fáng zū,rent
-访问,fǎngwèn,Visit
+访问,fǎngwèn,to visit
 放到,fàng dào,put to; put into
 飞行,fēixíng,flight; flying
 费,fèi,fee; cost
