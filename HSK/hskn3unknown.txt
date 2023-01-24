@@ -161,9 +161,9 @@
 短处,duǎnchù,shortcoming; demerit
 短裤,duǎn kù,shorts
 短期,duǎnqī,short term
-断,duàn,break
+断,duàn,to break
 队员,duìyuán,team member
-对待,duìdài,treat
+对待,duìdài,treat others
 对方,duìfāng,Other party
 对手,duìshǒu,Opponent
 对象,duìxiàng,object
@@ -171,7 +171,7 @@
 发表,fābiǎo,Publish
 发出,fāchū,issue; send out; give off; emit
 发达,fādá,developed
-发动,fādòng,Launch
+发动,fādòng,to start
 发明,fāmíng,Invention
 发生,fāshēng,Happen
 发送,fāsòng,send; transmit; dispatch; ship; forward
@@ -193,7 +193,7 @@
 飞行,fēixíng,flight; flying
 费,fèi,fee; cost
 费用,fèi yòng,cost; expenses; outlay
-分别,fēnbié,part
+分别,fēnbié,to leave each other; to distinguish
 分配,fēnpèi,to distribute; to assign
 分组,fēnzǔ,to divide into groups
 丰富,fēngfù,rich
