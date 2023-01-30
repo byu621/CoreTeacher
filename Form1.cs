@@ -178,7 +178,7 @@ namespace CoreTeacher
 
         private void BaseForm_KeyUp(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.ControlKey)
+            if (e.KeyCode == Keys.Space)
             {
                 Action();
                 e.Handled = true;
