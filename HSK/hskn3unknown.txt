@@ -23,13 +23,13 @@
 保证,bǎozhèng,ensure
 报（名）,bào,newspaper; periodical; journal; report; telegram
 报到,bàodào,register,check in
-报道,bàodào,report
+报道,bàodào,to report (news); report;
 报告,bàogào,to inform
 背,bèi,Back
 北部,běi bù,north
 背（名）,bèi,back of the body; back side of an object
 背后,bèihòu,behind; at the back; in the rear
-被,bèi,cover
+被,bèi,quilt; to cover; 
 被子,bèizi,quilt
 本来,běnlái,originally
 本领,běnlǐng,ability
@@ -47,18 +47,18 @@
 表格,biǎogé,form
 表面,biǎomiàn,surface
 表明,biǎomíng,to make clear
-表现,biǎoxiàn,work performance
+表现,biǎoxiàn,to show; to show off; to display;
 表演,biǎoyǎn,perform
 并（副、连）,bìng,and; also; equally; simultaneously; side by side
 并且,bìngqiě,also
 播出,bō chū,broadcast; on the air
 播放,bōfàng,to broadcast
 不必,bú bì,need not; not have to
-不断,búduàn,Constantly
+不断,búduàn,unceasing; uninterrupted; continuous; 
 不论,búlùn,whether; no matter; whether … or
 补,bǔ,repair; mend; patch; supply; make up for
-补充,bǔchōng,supplement
-不安,bù’ān,Uneasy
+补充,bǔchōng,to replenish; to supplement; to complement;
+不安,bù’ān,unpeaceful; unstable; uneasy; 
 不得不,bùdébù,have to
 不光,bù guāng,not only
 不仅,bùjǐn,not only
@@ -68,7 +68,7 @@
 部门,bùmén,department
 部长,bùzhǎng,minister; head of a department
 才能,cái néng,talent; ability; gift
-采取,cǎiqǔ,take, adpopt
+采取,cǎiqǔ,take,to adopt or carry out 
 采用,cǎiyòng,put to use; adopt; use; employ
 彩色,cǎisè,multicolour; colour
 曾经,céngjīng,once
@@ -95,7 +95,7 @@
 成长,chéngzhǎng,Grow up
 城,chéng,city; town
 城市,chéngshì,City
-程度,chéngdù,level, extent
+程度,chéngdù,level,degree (level or extent); level;
 持续,chíxù,Continued
 充满,chōngmǎn,full of
 重,zhòng,heavy
@@ -108,7 +108,7 @@
 处理,chǔlǐ,Handle
 传,chuán,pass; pass on; hand down; impart; spread; transmit
 传播,chuánbō,spread
-传来,chuánlái,came; come through
+传来,chuánlái,(of a sound) to come through; to be heard;
 传说,chuánshuō,Legend
 创新,chuàngxīn,innovate
 创业,chuàngyè,entrepreneurship
@@ -132,7 +132,7 @@
 代表,dàibiǎo,representative
 代表团,dài biǎo tuán,delegation; mission; deputation
 带动,dài dòng,drive; spur
-带领,dàilǐng,lead
+带领,dàilǐng,to guide; to lead
 单元,dānyuán,unit
 当初,dāngchū,Original
 当地,dāngdì,Local
@@ -153,7 +153,7 @@
 调,diào,transfer; shift; move
 调查,diàochá,investigation
 订,dìng,conclude; draw up; order; revise
-定期,dìngqī,regular
+定期,dìngqī,at set dates; at regular intervals; periodic;
 东部,dōng bù,east
 动力,dònglì,power, motivation
 动人,dòng rén,moving; touching
@@ -209,13 +209,13 @@
 复印,fùyìn,To copy
 复杂,fùzá,complex
 富,fù,rich
-改进,gǎijìn,Improvement
+改进,gǎijìn,to improve; to make better;
 改造,gǎi zào,transform; reform
-概念,gàiniàn,concept
+概念,gàiniàn,concept; idea;
 赶,gǎn,catch up with
 赶到,gǎn dào,arrived; get to
 赶紧,gǎnjǐn,Quickly
-赶快,gǎnkuài,Come on
+赶快,gǎnkuài,at once; immediately
 敢,gǎn,dare
 感冒,gǎnmào,Cold
 感情,gǎnqíng,feeling
@@ -223,28 +223,28 @@
 干吗,gànmá,Why
 高速,gāo sù,high speed
 高速公路,gāosùgōnglù,Expressway
-告别,gàobié,farewell
+告别,gàobié,to leave; to bid farewell to;
 歌迷,gē mí,fan
 歌声,gē shēng,singing
 歌手,gē shǒu,singer; vocalist
 个人,gèrén,personal
-个性,gèxìng,personality
+个性,gèxìng,individuality; personality
 各,gè,various
-各地,gèdì,various regions; everywhere
+各地,gèdì,in all parts of (a country); various regions
 各位,gèwèi,everybody
 各种,gèzhǒng,all kinds; various; every kind
 各自,gèzì,Each
-根本,gēnběn,at all
+根本,gēnběn,fundamental; basic; root;
 更加,gèngjiā,more; even more
 工厂,gōngchǎng,factory
 工程师,gōngchéngshī,Engineer
-工夫,gōngfu,time
+工夫,gōngfu,period of time
 工具,gōngjù,tool
 工业,gōngyè,Industry
 工资,gōngzī,wages
 公布,gōngbù,to announce
 公共,gōng gòng,public; common; community
-公开,gōngkāi,open
+公开,gōngkāi,public; to publish; to make public
 公民,gōngmín,citizen
 公务员,gōng wùyuán,civil servant; public functionary
 功夫,gōngfu,Kungfu
