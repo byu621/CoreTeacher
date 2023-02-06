@@ -233,7 +233,7 @@
 各地,gèdì,in all parts of (a country); various regions
 各位,gèwèi,everybody
 各种,gèzhǒng,all kinds; various; every kind
-各自,gèzì,Each
+各自,gèzì,each; respective;
 根本,gēnběn,fundamental; basic; root;
 更加,gèngjiā,more; even more
 工厂,gōngchǎng,factory
@@ -260,38 +260,38 @@
 关系,guānxì,relationship
 关注,guān zhù,attention; follow with interest; pay close attention; show solicitude for
 观察,guānchá,observation
-观看,guānkàn,watch; view
+观看,guānkàn,to watch; to view
 观念,guānniàn,concept
 观众,guānzhòng,Audience
 管,guǎn,control; be in charge of; manage; run
-管理,guǎnlǐ,Administration
+管理,guǎnlǐ,to supervise; to manage; to administer;
 光,guāng,light
 光明,guāngmíng,light
 广播,guǎngbō,Radio broadcast
 广大,guǎngdà,Vast
 规定,guīdìng,Regulations
-规范,guīfàn,criterion; rule
+规范,guīfàn,norm; standard; specification;
 国内,guó nèi,domestic; internal
 国庆,guó qìng,National Day
-果然,guǒrán,Sure enough
+果然,guǒrán,really; sure enough; as expected;
 果汁,guǒzhī,fruit juice
 过程,guòchéng,process
 过去（名）,guòqù,past; old; foretime
 哈哈,hāhā,ha-ha
 海关,hǎiguān,Customs
-害怕,hàipà,Fear
+害怕,hàipà,to be afraid; to be scared
 行,xíng,That’s ok
 好好,hǎohǎo,really good, really nice
 好奇,hàoqí,Be curious
 合,hé,close; shut; be equal to; add up to; join
-合法,héfǎ,legitimate
+合法,héfǎ,lawful; legitimate; legal
 合格,hégé,qualified
-合理,hélǐ,reasonable
-合作,hézuò,cooperation
+合理,hélǐ,rational; reasonable; fair
+合作,hézuò,to cooperate; to collaborate;
 和平,hépíng,peace
 红茶,hóngchá,black tea
 红酒,hóngjiǔ,red wine
-后果,hòuguǒ,Consequence
+后果,hòuguǒ,consequences; aftermath
 后面,hòumiàn,behind
 后年,hòu nián,the year after next
 互联网,hùliánwǎng,Internet
@@ -301,33 +301,33 @@
 化（现代化）,huà（xiàn dàihuà）,suffix (modernize; modernization)
 话剧,huà jù,drama
 话题,huàtí,Topic of conversation
-欢乐,huānlè,Happy
+欢乐,huānlè,gaiety; gladness; glee; 
 环,huán,ring; loop; link; annulus
 环保,huán bǎo,environmental protection
 环境,huánjìng,Environment
 会议,huìyì,Meeting
-会员,huìyuán,membership
+会员,huìyuán,member
 活,huó,live; save; work; living; alive
 火（名）,huǒ,fire; anger; temper
 机器,jīqì,machine
-积极,jījí,positive
+积极,jījí,active; energetic; vigorous; positive
 基本,jīběn,basic
 基本上,jī běnshàng,basically
-基础,jīchǔ,Basics
+基础,jīchǔ,base; foundation; basis;
 及时,jíshí,timely
 …极了,… jíle,extremely; exceedingly
-集体,jítǐ,collective
-集中,jízhōng,focus
+集体,jítǐ,collective (decision); joint (effort);
+集中,jízhōng,to concentrate; to centralize; to focus;
 计算,jìsuàn,Calculation
-记录,jìlù,Record
+记录,jìlù,to record; record (written account);
 记者,jìzhě,Reporter
-纪录,jìlù,Record
+纪录,jìlù,variant of 记录
 纪念,jìniàn,Anniversary
 技术,jìshù,technology
 继续,jìxù,Continue
-加工,jiāgōng,machining
+加工,jiāgōng,to process; processing;
 加快,jiā kuài,speed up; accelerate
-加强,jiāqiáng,strengthen; reinforce
+加强,jiāqiáng,to reinforce; to strengthen; 
 家具,jiājù,furniture
 家属,jiāshǔ,family members
 家乡,jiāxiāng,Hometown
@@ -335,17 +335,17 @@
 价钱,jiàqián,price
 价值,jiàzhí,value
 架,jià,frame; rack; shelf; stand
-坚持,jiānchí,Insist
-坚决,jiānjué,firm
-坚强,jiānqiáng,Firm
+坚持,jiānchí,to persevere with; to persist in; to insist on
+坚决,jiānjué,firm; resolute; determined
+坚强,jiānqiáng,staunch; strong
 简单,jiǎndān,simple
-简直,jiǎnzhí,simply
+简直,jiǎnzhí,simply; at all; practically
 建,jiàn,build; construct; erect; establish; set up; found
-建成,jiàn chéng,built up
-建立,jiànlì,establish
-建设,jiànshè,build
-建议,jiànyì,proposal
-将近,jiāngjìn,nearly
+建成,jiàn chéng,to establish; to build
+建立,jiànlì,to establish; to set up;
+建设,jiànshè,to build; to construct;
+建议,jiànyì,to propose; to suggest; to recommend; 
+将近,jiāngjìn,almost; nearly; close to
 将来,jiānglái,future
 交费,jiāo fèi,pay
 交警,jiāo jǐng,traffic police

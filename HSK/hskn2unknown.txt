@@ -1,4 +1,4 @@
-﻿啊,a,auxiliary word
+啊,a,auxiliary word
 爱情,àiqíng,Love
 爱人,ài rén,lover
 安静,ānjìng,Be quiet
@@ -24,7 +24,7 @@
 边,biān,side
 变,biàn,change
 变成,biàn chéng,become; change into
-遍,biàn,Times
+遍,biàn,everywhere; all over; classifier for actions: one time
 表,biǎo,watch
 表示,biǎoshì,Express
 不错,bú cuò,not bad; pretty good
