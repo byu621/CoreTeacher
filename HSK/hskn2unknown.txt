@@ -1,10 +1,10 @@
 啊,a,auxiliary word
 爱情,àiqíng,Love
 爱人,ài rén,lover
-安静,ānjìng,Be quiet
-安全,ānquán,security
+安静,ānjìng,quiet; peaceful; calm
+安全,ānquán,safe; secure; safety; security
 白色,báisè,white
-班长,bānzhǎng,monitor; squad leader
+班长,bānzhǎng,class monitor; squad leader; team leader;
 办,bàn,do
 办法,bànfǎ,Way
 办公室,bàngōngshì,Office
@@ -34,7 +34,7 @@
 不太,bú tài,not too; not very much
 不要,búyào,don’t
 不好意思,bùhǎoyì sī,sorry; feel embarrassed
-不久,bù jiǔ,soon
+不久,bù jiǔ,not long (after); before too long; 
 不满,bù mǎn,dissatisfied
 不如,bùrú,not as good as
 不少,bùshǎo,not a few; a lot
@@ -45,7 +45,7 @@
 部分,bùfen,Part
 才（副）,cái,only; just
 菜单,càidān,menu
-参观,cānguān,visit
+参观,cānguān,to look around; to tour; to visit
 参加,cānjiā,participate in
 草,cǎo,grass
 草地,cǎodì,grass; lawn
@@ -106,7 +106,7 @@
 蛋,dàn,egg
 当,dāng,When
 当时,dāngshí,at that time
-倒,dǎo,fall, topple, fail
+倒,dǎo,fall, topple,to place upside down; to invert;however; actually; 
 到处,dàochù,everywhere
 倒,dào,inverted
 道,dào,road; way; path
@@ -126,7 +126,7 @@
 地铁站,dìtiě zhàn,subway station
 点头,diǎntóu,nod
 店,diàn,shop; store
-掉,diào,fall
+掉,diào,to fall; to drop; to lag behind; to lose; 
 东北,dōng běi,northeast
 东方,dōng fāng,east
 东南,dōngnán,southeast
@@ -139,7 +139,7 @@
 度,dù,degree; limit
 短,duǎn,short
 短信,duǎnxìn,message
-段,duàn,paragraph
+段,duàn,paragraph; section; segment; stage (of a process);
 队,duì,team
 队长,duìzhǎng,team leader; captain
 对（介、动）,duì,to; at; face; be opposite;    answer
